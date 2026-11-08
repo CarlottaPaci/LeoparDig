@@ -1,8 +1,9 @@
-Materiale del sito:
-    file index.html della homepage del sito
-    pagina completa del catalogo (edizione.html)
-    pagina dell'item (item.html)
-    pagina degli strumenti (strumenti.html)
-    pagina dei dati (dati.html)
-    foglio di stile impiegato per l'intero sito (style/style.css)
-    immagini richiamate nel sito (cartella img)
+
+## Materiale per il sito: 
+1. pagina della homepage (index.html)
+2. pagina dell'edizione (edizione.html)
+3. pagina dell'item (item.html)
+4. pagina degli strumenti (strumenti.html)
+5. pagina dei dati (dati.html)
+6. foglio di stile impiegato per il sito (style/style.css)
+7. immagini richiamate nel sito (cartella img)
