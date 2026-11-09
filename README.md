@@ -10,5 +10,5 @@ In questa repository c'è il materiale del sito "LeoparDig", di seguito elencato
 6. foglio di stile impiegato per il sito (cartella style)
 7. immagini richiamate nel sito (cartella img)
 8. metadati item (metadati.xml)
-9. tabella metadati (csv/json)
-10. File xml/tei dell'item (Alla Primavera_STAMPE.xml)
+9. dataset (csv/json)
+10. file xml/tei dell'item (Alla Primavera_STAMPE.xml)
