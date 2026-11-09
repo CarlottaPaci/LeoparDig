@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://pur1.org/dc/terms/"
+xmlns:mp="http://LeoparDig/schema"
+xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+<dc:title>VII. Alla Primavera, o delle favole antiche</dc:title>
+<dc:creator>Giacomo Leopardi</dc:creator>
+<tei:author>Giacomo Leopardi</tei:author>
+<dcterms:creator xsi:type="dcterms:URI" mp:authority="VIAF">http://viaf.org/viaf/12311353</dcterms:creator>
+<dc:subject>Poesia</dc:subject>
+<dc:description>Canzone di cinque stanze, ciascuna di 19 versi in endecasillabi e settenari</dc:description>
+<dc:publisher>Università di Bologna</dc:publisher>
+<dc:contributor>Carlotta Paci</dc:contributor>
+<dc:date>1822</dc:date>
+<dcterms:created>2026</dcterms:created>
+<mp:luogo mp:tipo="mp:conservazione">Napoli</mp:luogo>
+<dc:type mp:versione="mp:digitale">Text/Poetry</dc:type>
+<dc:type mp:versione="mp:analogico">Text/Poetry</dc:type>
+<dc:format mp:versione="mp:digitale">xml</dc:format>
+<dc:format mp:versione="mp:analogico">Stampa</dc:format>
+<dc:identifier></dc:identifier>
+<dc:source>Leopardi, Giacomo. Canti, ediz. critica a cura di Franco Gavazzeni, Firenze, 2009.</dc:source>
+<dc:language>Italiano</dc:language>
+<dc:coverage>Bologna</dc:coverage>
+<dc:rights>Licenza riservata</dc:rights>
+</metadata>

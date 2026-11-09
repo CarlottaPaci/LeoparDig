@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canti</title>
+            <author>Giacomo Leopardi</author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Carlotta Paci</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>DH.ARC</publisher>
+            <pubPlace>Bologna</pubPlace>
+            <date>2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Giacomo Leopardi</author>
+               <title>Canti</title>
+               <publisher>Accademia della Crusca</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>2009</date>
+               <editor>Franco Gavazzeni</editor>
+               <editor>Cristiano Animosi</editor>
+               <editor>Paola Italia</editor>
+               <editor>Maria Maddalena Lombardi</editor>
+               <editor>Federica Lucchesini</editor>
+               <editor>Rossano Pestarino</editor>
+               <editor>Sara Rosini</editor>
+            </bibl>
+            <listWit>
+               <witness xml:id="AN">
+                  <!-- INSERIRE MISURE DEI FOGLI -->
+                  <date>1822</date>
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Napoli</settlement>
+                        <repository>Biblioteca Nazionale «Vittorio Emanuele III»</repository>
+                        <idno>C.L. X.5.2epsilon</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <handDesc>
+                           <handNote corresp="#layer0" scope="base"/>
+                           <handNote corresp="#layer1" scope="other"/>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B24">
+                  <date>1824</date>
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <settlement/>
+                        <repository/>
+                        <idno>CANZONI|DEL CONTE|GIACOMO LEOPARDI|BOLOGNA|PEI TIPI DEL NOBILI E
+                           COMP.°|1824.</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="F31">
+                  <date>1831</date>
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <settlement>Firenze</settlement>
+                        <repository>Biblioteca Nazionale Centrale di Firenze</repository>
+                        <idno>CANTI|DEL CONTE|GIACOMO LEOPARDI.|FIRENZE|PRESSO GUGILLEMO
+                           PIATTI|1831._RARI POST.59</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="N35">
+                  <date>1835</date>
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <idno>OPERE|DI|GIACOMO LEOPARDI.|VOL.I.||CANTI|DI|GIACOMO LEOPARDI.|EDIZIONE
+                           CORRETTA, ACCRESCIUTA,|E SOLA APPROVATA DALL'AUTORE.|NAPOLI,|PRESSO
+                           SAVERIO STARITA|Strada Quercia n.14.|1835.</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="N35c">
+                  <date>1835</date>
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <idno>OPERE|DI|GIACOMO LEOPARDI.|VOL.I.||CANTI|DI|GIACOMO LEOPARDI.|EDIZIONE
+                           CORRETTA, ACCRESCIUTA,|E SOLA APPROVATA DALL'AUTORE.|NAPOLI,|PRESSO
+                           SAVERIO STARITA|Strada Quercia n.14.|1835._C.L.XX.3</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <app>
+               <lem wit="#F31 #N35 #N35c">
+                  <hi rend="bold">VII.<lb/> ALLA PRIMAVERA,</hi><lb/> O<lb/> DELLE FAVOLE
+                  ANTICHE.</lem>
+               <rdg wit="#AN"><mod change="#layer0">Alla Primavera o delle Favole
+                  antiche.</mod></rdg>
+               <rdg wit="#B24" type="eyelet"><hi rend="bold">ALLA PRIMAVERA<lb/> o<lb/> DELLE FAVOLE ANTICHE<lb/>
+                     <hi rend="italic">CANZONE SETTIMA</hi></hi></rdg>
+               <rdg wit="#B24">ALLA PRIMAVERA<lb/>
+                  <hi rend="italic">o<lb/> DELLE FAVOLE ANTICHE</hi></rdg>
+            </app>
+         </head>
+         <lg>
+            <l n="1" rend="indent">
+               <app>
+                  <lem wit="#N35 #N35c">Perchè</lem>
+                  <rdg wit="#AN #B24 #F31">Per che</rdg>
+               </app>i celesti danni</l>
+            <l n="2">Ristori il sole <app>
+                  <lem wit="#N35 #N35c">, e perchè</lem>
+                  <rdg wit="#AN #B24">e per che</rdg>
+                  <rdg wit="#F31">, e per che</rdg>
+               </app>l'aure inferme </l>
+            <l n="3">Zefiro avvivi, onde fugata e sparta</l>
+            <l n="4">
+               <app>
+                  <lem wit="#N35 #N35c">Delle</lem>
+                  <rdg wit="#AN #B24 #F31">De le</rdg>
+               </app>nubi la grave ombra s'avvalla;</l>
+            <l n="5">Credano il petto inerme</l>
+            <l n="6">Gli augelli al vento, e la diurna luce</l>
+            <l n="7">Novo d'amor <app>
+                  <lem wit="#N35c">desio,</lem>
+                  <rdg wit="#AN #B24">disio,</rdg>
+                  <rdg wit="#F31 #N35">desio</rdg>
+               </app>nova speranza</l>
+            <l n="8">Ne' penetrati boschi e fra le sciolte</l>
+            <l n="9">Pruine induca <app>
+                  <lem wit="#N35 #N35c">alle</lem>
+                  <rdg wit="#AN #B24 #F31">a le</rdg>
+               </app>commosse belve;</l>
+            <l n="10">Forse <app>
+                  <lem wit="#N35 #N35C">alle</lem>
+                  <rdg wit="#AN #B24 #F31">a le</rdg>
+               </app>stanche e nel dolor sepolte</l>
+            <l n="11">Umane menti riede</l>
+            <l n="12">La bella età, cui la sciagura e l'atra</l>
+            <l n="13">Face del ver consunse</l>
+            <l n="14">Innanzi tempo? Ottenebrati e spenti</l>
+            <l n="15"> <anchor xml:id="v15-16"/>Di febo i raggi al misero non sono</l>
+            <l n="16">In sempiterno? <app from="#v15-16">
+                  <lem wit="#N35c">Di febo i raggi al misero non sono<lb/> In sempiterno?</lem>
+                  <rdg wit="#AN #B24">In sempiterno al misero non sono<lb/> Di febo i raggi?</rdg>
+                  <rdg wit="#F31 #N35">Di Febo i raggi al misero non sono<lb/> In sempiterno?</rdg>
+               </app>ed anco,</l>
+            <l n="17">Primavera odorata, <app>
+                  <lem wit="#N35 #N35c">inspiri</lem>
+                  <rdg wit="#AN #B24 #F31">ispiri</rdg>
+               </app>e tenti</l>
+            <l n="18">Questo gelido cor, questo ch'amara</l>
+            <l n="19">Nel fior <app>
+                  <lem wit="#N35 #N35c">degli</lem>
+                  <rdg wit="#AN #B24 #F31">de gli</rdg>
+               </app>anni suoi vecchiezza impara?</l>
+         </lg>
+         <lg>
+            <l n="20">Vivi tu,<app>
+                  <lem wit="#N35 N35c">vivi,</lem>
+                  <rdg wit=" #AN #B24 F31">vivi</rdg>
+               </app> o santa </l>
+            <l n="21">Natura?</l>
+            <l n="21">
+               <app>
+                  <lem wit="#N35 N35c">vivi e il</lem>
+                  <rdg wit="#AN #B24 #F31">vivi, e ’l</rdg>
+               </app>dissueto orecchio </l>
+            <l n="22">
+               <app>
+                  <lem wit="#N35 N35c">Della</lem>
+                  <rdg wit="#AN #B24 #F31">De la</rdg>
+               </app>materna voce il suono accoglie?</l>
+            <l n="23">Già di candide ninfe i rivi albergo,</l>
+            <l n="24">Placido albergo e specchio</l>
+            <l n="25">Furo i liquidi fonti. Arcane danze</l>
+            <l n="26">D'immortal piede i ruinosi gioghi</l>
+            <l n="27">Scossero e l’ardue selve (oggi <anchor xml:id="v27-28"/> romito</l>
+            <l n="28">Nido <app from="#v27-28">
+                  <lem wit="#N35c">romito<lb/> Nido</lem>
+                  <rdg wit="#AN #B24 #F31 #N35">romita<lb/> Stanza</rdg>
+               </app> de' venti): e <app>
+                  <lem wit="#F31 #N35 #N35c">il</lem>
+                  <rdg wit="#AN #B24">'l</rdg>
+               </app>pastorel ch'<app>
+                  <lem wit="#N35 #N35c">all'</lem>
+                  <rdg wit="#AN #B24 #F31">a l'</rdg>
+               </app>ombre</l>
+            <l n="29">Meridiane <!-- INSERIRE NOTA N. 6 A PAG. 596(660 PDF) ED. GAVAZZENI--> incerte <app>
+                  <lem wit="#N35c">ed al fiorito</lem>
+                  <rdg wit="#AN #B24 #F31">e a la fiorita</rdg>
+                  <rdg wit="N35">e alla fiorita</rdg>
+               </app></l>
+            <l n="30">Margo addducea de’ fiumi</l>
+            <l n="31">Le sitibonde agnelle, arguto carme</l>
+            <l n="32">Sonar d’agresti Pani</l>
+            <l n="33">Udì lungo le ripe; e tremar l’onda</l>
+            <l n="34">Vide, e stupì, <app>
+                  <lem wit="#N35 #N35c">che</lem>
+                  <rdg wit="#AN #B24 #F31">chè</rdg>
+               </app>non palese al guardo</l>
+            <l n="35">La faretrata Diva</l>
+            <l n="36">Scendea ne’ caldi flutti, e <app>
+                  <lem wit="#N35 #N35c">dall'</lem>
+                  <rdg wit="#AN #B24 #F31">da l'</rdg>
+               </app>immonda</l>
+            <l n="37">Polve tergea <app>
+                  <lem wit="#N35 #N35c">della</lem>
+                  <rdg wit="#AN #B24 #F31">de la</rdg>
+               </app>sanguigna caccia</l>
+            <l n="38">Il niveo lato e le verginee braccia.</l>
+         </lg>
+         <lg>
+            <l n="39">Vissero i fiori e l'erbe,</l>
+            <l n="40">Vissero i boschi un dì. Conscie le molli</l>
+            <l n="41">Aure, le nubi e la titania lampa</l>
+            <l n="42">Fur <app>
+                  <lem wit="#N35 #N35c">dell'</lem>
+                  <rdg wit="#AN #B24 #F31">de l'</rdg>
+               </app>umana gente, allor che ignuda</l>
+            <l n="43">Te per le piagge e i colli,</l>
+            <l n="44">Ciprigna luce, <app>
+                  <lem wit="#N35 #N35c">alla</lem>
+                  <rdg wit="#AN #B24 #F31">a la</rdg>
+               </app>deserta notte</l>
+            <l n="45">Con gli occhi intenti il viator seguendo,</l>
+            <l n="46">Te compagna <app>
+                  <lem wit="#N35 #N35c">alla</lem>
+                  <rdg wit="#AN #B24 #F31">a la</rdg>
+               </app>via, te de’ mortali</l>
+            <l n="47">Pensosa immaginò. Che se gl’impuri</l>
+            <l n="48">Cittadini consorzi e le fatali</l>
+            <l n="49">Ire fuggendo e l’onte,</l>
+            <l n="50">Gl’ispidi tronchi al petto altri <app>
+                  <lem wit="#N35 #N35c">nell'</lem>
+                  <rdg wit="#AN #B24 #F31">ne l'</rdg>
+               </app>ime</l>
+            <l n="51">Selve remoto accolse,</l>
+            <l n="52">Viva fiamma agitar l’esangui vene,</l>
+            <l n="53">Spirar le foglie, e palpitar segreta</l>
+            <l n="54">Nel doloroso amplesso</l>
+            <l n="55">Dafne o la mesta <app>
+                  <lem wit="#N35 #N35c">Filli,</lem>
+                  <rdg wit="#AN #B24 #F31">Filli</rdg>
+               </app>o di Climene</l>
+            <l n="56">Pianger credè la sconsolata prole</l>
+            <l n="57">Quel che sommerse in Eridano il sole.</l>
+         </lg>
+         <lg>
+            <l n="58">Nè <app>
+                  <lem wit="#N35 #N35c">dell'</lem>
+                  <rdg wit="#AN #B24 #F31">de l'</rdg>
+               </app>umano affanno,</l>
+            <l n="59">Rigide balze, i luttuosi accenti</l>
+            <l n="60">Voi negletti ferìr mentre le vostre</l>
+            <l n="61">Paurose latebre Eco solinga,</l>
+            <l n="62">Non vano error de’ venti,</l>
+            <l n="63">Ma di ninfa abitò misero spirto,</l>
+            <l n="64">Cui grave amor, cui duro fato escluse</l>
+            <l n="65">
+               <app>
+                  <lem wit="#N35 #N35c">Delle</lem>
+                  <rdg wit="#AN #B24 #F31">De le</rdg>
+               </app>tenere membra. Ella per grotte,</l>
+            <l n="66">Per nudi scogli e <app>
+                  <lem wit="#N35 #N35c">desolati alberghi,</lem>
+                  <rdg wit="#AN #B24">moribonde arene</rdg>
+                  <rdg wit="#F31">desolati alberghi</rdg>
+               </app></l>
+            <l n="67">Le non ignote ambasce e l’alte e rotte</l>
+            <l n="68">Nostre querele al curvo</l>
+            <l n="69">Etra insegnava. E te d’umani eventi</l>
+            <l n="70">Disse la fama esperto,</l>
+            <l n="71">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Musico</lem>
+                  <rdg wit="#AN #B24">Flebile</rdg>
+               </app> augel che tra chiomato bosco</l>
+            <l n="72">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Or vieni il rinascente anno cantando,</lem>
+                  <rdg wit="#AN #B24">Non lunge il rinascente anno salúti,</rdg>
+               </app></l>
+            <l n="73">E lamentar <app>
+                  <lem wit="#N35 #N35c">nell'</lem>
+                  <rdg wit="#AN #B24 #F31">ne l'</rdg>
+               </app> alto</l>
+            <l n="74">Ozio de’ campi, <app>
+                  <lem wit="#N35 #N35c">all'aer</lem>
+                  <rdg wit="#AN #B24">a l'aer</rdg>
+                  <rdg wit="#F31">e l'aer</rdg>
+                  <!-- ERRORE DI STAMPA e INVECE DI a? -->
+               </app> muto e fosco,</l>
+            <l n="75">Antichi danni e <app>
+                  <lem wit="#N35 #N35c">scellerato</lem>
+                  <rdg wit="#AN #B24 #F31">scelerato</rdg>
+               </app>scorno,</l>
+            <l n="76">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">E d’ira e di pietà pallido</lem>
+                  <rdg wit="#AN #B24">E da nefando suol profugo</rdg>
+               </app> il giorno.</l>
+         </lg>
+         <lg>
+            <l n="77">Ma non cognato <anchor xml:id="v77-78"/>al nostro</l>
+            <l n="78">Il gener tuo; quelle tue <app from="#v77-78">
+                  <lem wit="#F31 #N35 #N35c">al nostro<lb/> Il gener tuo; quelle tue</lem>
+                  <rdg wit="#AN #B24">a l'empio<lb/> Genere il gener tuo; le</rdg>
+               </app> varie note</l>
+            <l n="79">Dolor non <app>
+                  <lem wit="#F31 #N35 #N35c">forma,</lem>
+                  <rdg wit="#AN #B24">finge,</rdg>
+               </app> e te di colpa ignudo,</l>
+            <l n="80">Men caro assai la bruna valle asconde.</l>
+            <l n="81">Ahi ahi, poscia che vote</l>
+            <l n="82">Son le stanze d’Olimpo, e cieco il tuono</l>
+            <l n="83">Per l’atre nubi e le montagne <app>
+                  <lem wit="#B24 #F31 #N35 #N35c">errando,</lem>
+                  <rdg wit="#AN">errando</rdg>
+               </app></l>
+            <l n="84">Gl’iniqui petti e gl’innocenti a paro</l>
+            <l n="85">In freddo orror dissolve; e poi <app>
+                  <lem wit="#F31 #N35 #N35c">ch'estrano</lem>
+                  <rdg wit="#AN #B24">che strano</rdg>
+               </app></l>
+            <l n="86">Il suol nativo, e di sua prole ignaro</l>
+            <l n="87">Le meste anime <app>
+                  <lem wit="#AN #F31 #N35 #N35c">educa;</lem>
+                  <rdg wit="#B24">educa:</rdg>
+                  <!-- ERRORE DI STAMPA -->
+               </app></l>
+            <l n="88">Tu le cure infelici e i fati indegni</l>
+            <l n="89">Tu de’ mortali ascolta,</l>
+            <l n="90">Vaga <app>
+                  <lem wit="#F31 #N35 #N35c">natura,</lem>
+                  <rdg wit="#AN #B24">Natura,</rdg>
+               </app> e la favilla antica</l>
+            <l n="91">Rendi <app>
+                  <lem wit="#N35 #N35c">allo spirto</lem>
+                  <rdg wit="#AN #B24">a l'ingegno</rdg>
+                  <rdg wit="#F31">a lo spirto</rdg>
+               </app> mio; se tu pur vivi,</l>
+            <l n="92">E se de’ nostri affanni</l>
+            <l n="93">Cosa veruna in ciel, se <app>
+                  <lem wit="#N35 #N35c">nell'</lem>
+                  <rdg wit="#AN #B24 #F31">ne l'</rdg>
+               </app> aprica</l>
+            <l n="94">Terra s’alberga o <app>
+                  <lem wit="#N35 #N35c">nell'</lem>
+                  <rdg wit="#AN #B24 #F31">ne l'</rdg>
+               </app> equoreo seno,</l>
+            <l n="95">Pietosa no, ma spettatrice almeno.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>
