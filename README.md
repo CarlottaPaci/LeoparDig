@@ -1,3 +1,5 @@
+# Presentazione sito:
+In questa repository c'è il materiale del sito "LeoparDig", di seguito elencato nel dettaglio. Sul sito sono attivi i link all'indice dell'edizione; ad un item, con file xml/tei e metadati; alla pagina strumenti e ai dati, visionabili e scaricabili in formato csv/json. 
 
 ## Materiale per il sito: 
 1. homepage (index.html)
