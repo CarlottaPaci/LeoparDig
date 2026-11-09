@@ -7,7 +7,7 @@ In questa repository c'è il materiale del sito "LeoparDig", di seguito elencato
 3. pagina dell'item (item.html)
 4. pagina degli strumenti (strumenti.html)
 5. pagina dei dati (dati.html)
-6. foglio di stile impiegato per il sito (style/style.css)
+6. foglio di stile impiegato per il sito (cartella style)
 7. immagini richiamate nel sito (cartella img)
 8. metadati item (metadati.xml)
 9. tabella metadati (csv/json)
